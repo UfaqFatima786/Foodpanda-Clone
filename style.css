@@ -1302,3 +1302,56 @@
     text-align: center;
     gap: 30px;
 }
+.pandapanda{
+    display: flex;
+    flex-direction: row;
+}
+.panda{
+    height: 35px;
+    width: 35px;
+    margin-right: 0;
+    margin-left: 20px;
+    margin-top: 0;
+    box-sizing: border-box;
+    border-radius: 20%;
+    flex-shrink: 0;
+}
+.panda1{
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fd0380;
+    margin-left: 10px;
+    margin-top: 0px;
+}
+.panda2{
+     height: 35px;
+    width: 200px;
+    margin-right: 0;
+    margin-left: 50px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border-radius: 20%;
+    flex-shrink: 0;
+}
+
+.panda3{
+    height: 35px;
+    width: 35px;
+    margin-left: 1000px;
+    color: #000000;
+    box-sizing: border-box;
+}
+.panda3:hover{
+cursor: pointer;
+color: #423e3e;
+}
+.panda4{
+    height: 35px;
+    width: 35px;
+    box-sizing: border-box;
+}
+.panda4:hover{
+cursor: pointer;
+color: #423e3e;
+}

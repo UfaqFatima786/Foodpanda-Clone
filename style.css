@@ -697,7 +697,7 @@
 
 
 .item1 {
- display: flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -887,6 +887,7 @@
     font-size: 12px;
     text-align: left;
 }
+
 .section4 {
     background-color: white;
     margin-top: 0px;
@@ -916,7 +917,7 @@
     transform: scale(1.05);
 }
 
- /* Fix anchor — make row layout (image left + text right) */
+/* Fix anchor — make row layout (image left + text right) */
 .anchor {
     display: flex;
     align-items: center;
@@ -927,6 +928,7 @@
     height: 100px;
     border: 1px solid rgb(177, 171, 171);
 }
+
 /* .imgpart{
    width: 100px;
    height: 50px;
@@ -951,11 +953,352 @@
     color: gray;
 }
 
-.section5{
+.section5 {
+    background-color: white;
+    margin-top: 0px;
+
+}
+
+.card-image5 {
+    width: 200px;
+    height: 150px;
+
+}
+
+.kitchens5 {
+    height: 170px;
+    width: 250px;
+    border-radius: 5px;
+}
+
+.kitchens5:hover {
+    cursor: pointer;
+    /* transition-duration: 0.5s; */
+    transform: translateY(-8px) scale(1.1);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.section6 {
     background-color: white;
     margin-top: 0px;
 }
-.section6{
-    background-color: white;
-    margin-top: 0px;
+
+
+
+.section7 {
+    background-color: #ffffff;
+    margin-top: 0;
+    margin-top: 40px;
+
+}
+
+.home1 {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+
+}
+
+.div4 {
+
+    width: 1147px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.restuarants1 {
+    width: 350px;
+    height: 320px;
+    margin: 10px;
+    border: 1px solid rgb(213, 202, 202);
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card-image1 {
+    width: 330px;
+    height: 180px;
+}
+
+.card-content {
+    width: 240px;
+    height: 120px;
+    flex-direction: row;
+    text-align: end;
+    justify-content: space-between;
+}
+
+.restuarant-heading1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.kitchens1 {
+    height: 200px;
+    width: 330px;
+    border-radius: 20px 20px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.kitchens1:hover {
+    cursor: pointer;
+    /* transition-duration: 0.5s; */
+    transform: translateY(-8px) scale(1.1);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+
+.rating1 {
+    font-size: 12px;
+    text-align: right;
+    margin-left: 15px;
+}
+
+.delivery1 {
+    font-size: 12px;
+    text-align: left;
+    margin-left: 5px;
+}
+
+.cuisines1 {
+    font-size: 12px;
+    text-align: left;
+    margin-left: 5px;
+}
+
+.section8 {
+    background-color: #ffffff;
+    margin-top: 0;
+    margin-top: 250px;
+
+}
+
+/* .home8 {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+
+}  */
+
+.div8 {
+
+    width: 1147px;
+    height:250px;
+    display: flex;
+    flex-direction: row;
+}
+
+.restuarants8 {
+    width: 350px;
+    height: 320px;
+    margin: 10px;
+    border: 1px solid rgb(213, 202, 202);
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card-image8 {
+    width: 330px;
+    height: 180px;
+}
+
+.card-content8 {
+    width: 330px;
+    height: 120px;
+    flex-direction: row;
+    text-align: end;
+    justify-content: space-between;
+}
+
+.restuarant-heading8 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.kitchens8 {
+    height: 200px;
+    width: 330px;
+    border-radius: 20px 20px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.kitchens8:hover {
+    cursor: pointer;
+    /* transition-duration: 0.5s; */
+    transform: translateY(-8px) scale(1.1);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+
+.rating8 {
+    font-size: 12px;
+    text-align: right;
+    margin-left: 15px;
+}
+
+.delivery8 {
+    font-size: 12px;
+    text-align: left;
+    margin-left: 5px;
+}
+
+.cuisines8 {
+    font-size: 12px;
+    text-align: left;
+    margin-left: 5px;
+}
+
+.section9 {
+    background-color: #ffffff;
+    margin-top: 0;
+    margin-top: 100px;
+
+}
+
+/* .home8 {
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+
+}  */
+
+.div9 {
+
+    width: 1147px;
+    height:250px;
+    display: flex;
+    flex-direction: row;
+}
+
+.restuarants9 {
+    width: 350px;
+    height: 320px;
+    margin: 10px;
+    border: 1px solid rgb(213, 202, 202);
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card-image9 {
+    width: 330px;
+    height: 180px;
+}
+
+.card-content9 {
+    width: 330px;
+    height: 120px;
+    flex-direction: row;
+    text-align: end;
+    justify-content: space-between;
+}
+
+.restuarant-heading9 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.kitchens9 {
+    height: 200px;
+    width: 330px;
+    border-radius: 20px 20px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.kitchens9:hover {
+    cursor: pointer;
+    /* transition-duration: 0.5s; */
+    transform: translateY(-8px) scale(1.1);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+
+.rating9 {
+    font-size: 12px;
+    text-align: right;
+    margin-left: 15px;
+}
+
+.delivery9 {
+    font-size: 12px;
+    text-align: left;
+    margin-left: 5px;
+}
+
+.cuisines9 {
+    font-size: 12px;
+    text-align: left;
+    margin-left: 5px;
+}
+
+
+.down1 {
+    background-color: #ffffff;
+    margin-top: 0;
+    margin-top: 120px;
+    /* margin-bottom: 80px; */
+
+} 
+.footerheading1{
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif ;
+    color: black;
+    margin-left: 10px;
+}
+.footerheading2{
+    font-size: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left: 10px;
+    color: rgb(94, 88, 88);
+}
+.tr1{
+    display:table-row;
+}
+.th{
+    text-align: left;
+    font-size: 10px;
+}
+.anchore{
+    font-size: 20px;
+    font-family:monospace;
+    margin-left: 10px;
+    color: rgb(32, 31, 31);
+    
+}
+.anchorr{
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 10px;
+    color: rgb(46, 43, 43);
+}
+.para{
+    color: #333;
+    text-align: center;
+    gap: 10px;
+}
+.anc{
+    color: #333;
+    text-align: center;
+    gap: 30px;
 }

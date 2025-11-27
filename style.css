@@ -78,7 +78,9 @@
     box-sizing: border-box;
     gap: 16px;
 }
-
+.pandadivclass{
+    display:flex
+}
 .logo1 {
     height: 40px;
     width: 40px;
@@ -872,7 +874,6 @@
     transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
-
 .rating {
     font-size: 12px;
     text-align: right;
@@ -929,11 +930,6 @@
     border: 1px solid rgb(177, 171, 171);
 }
 
-/* .imgpart{
-   width: 100px;
-   height: 50px;
-} */
-/* Circle-like logo  */
 .brandimg {
     width: 100px;
     height: 75px;
@@ -957,6 +953,27 @@
     background-color: white;
     margin-top: 0px;
 
+}
+.homez{
+    font-size: 41px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+.home-chef-card0{
+    width: 250px;
+    height: 300px;
+    margin: 10px;
+    border: 1px solid rgb(213, 202, 202);
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+.div50{
+    width: 1147px;
+    /* height: 150px; */
+    display: flex;
+    flex-direction: row;
 }
 
 .card-image5 {
@@ -1091,7 +1108,7 @@
 .div8 {
 
     width: 1147px;
-    height:250px;
+    height: 250px;
     display: flex;
     flex-direction: row;
 }
@@ -1180,7 +1197,7 @@
 .div9 {
 
     width: 1147px;
-    height:250px;
+    height: 250px;
     display: flex;
     flex-direction: row;
 }
@@ -1259,54 +1276,64 @@
     margin-top: 120px;
     /* margin-bottom: 80px; */
 
-} 
-.footerheading1{
+}
+
+.footerheading1 {
     font-size: 30px;
-    font-family:Arial, Helvetica, sans-serif ;
+    font-family: Arial, Helvetica, sans-serif;
     color: black;
     margin-left: 10px;
 }
-.footerheading2{
+
+.footerheading2 {
     font-size: 15px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     margin-left: 10px;
     color: rgb(94, 88, 88);
 }
-.tr1{
-    display:table-row;
+
+.tr1 {
+    display: table-row;
 }
-.th{
+
+.th {
     text-align: left;
     font-size: 10px;
 }
-.anchore{
+
+.anchore {
     font-size: 20px;
-    font-family:monospace;
+    font-family: monospace;
     margin-left: 10px;
     color: rgb(32, 31, 31);
-    
+
 }
-.anchorr{
+
+.anchorr {
     font-size: 20px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-left: 10px;
     color: rgb(46, 43, 43);
 }
-.para{
+
+.para {
     color: #333;
     text-align: center;
     gap: 10px;
 }
-.anc{
+
+.anc {
     color: #333;
     text-align: center;
     gap: 30px;
 }
-.pandapanda{
+
+.pandapanda {
     display: flex;
     flex-direction: row;
 }
-.panda{
+
+.panda {
     height: 35px;
     width: 35px;
     margin-right: 0;
@@ -1316,7 +1343,8 @@
     border-radius: 20%;
     flex-shrink: 0;
 }
-.panda1{
+
+.panda1 {
     font-family: sans-serif;
     font-size: 24px;
     font-weight: bold;
@@ -1324,8 +1352,9 @@
     margin-left: 10px;
     margin-top: 0px;
 }
-.panda2{
-     height: 35px;
+
+.panda2 {
+    height: 35px;
     width: 200px;
     margin-right: 0;
     margin-left: 50px;
@@ -1335,23 +1364,28 @@
     flex-shrink: 0;
 }
 
-.panda3{
+.panda3 {
     height: 35px;
     width: 35px;
     margin-left: 1000px;
     color: #000000;
     box-sizing: border-box;
 }
-.panda3:hover{
-cursor: pointer;
-color: #423e3e;
+
+.panda3:hover {
+    cursor: pointer;
+    color: #423e3e;
 }
-.panda4{
+
+.panda4 {
     height: 35px;
     width: 35px;
     box-sizing: border-box;
 }
-.panda4:hover{
-cursor: pointer;
-color: #423e3e;
+
+.panda4:hover {
+    cursor: pointer;
+    color: #423e3e;
 }
+
+
